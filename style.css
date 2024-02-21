@@ -43,6 +43,12 @@ body::-webkit-scrollbar {
     background-color: #E5E7EB;
   }
 
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 
 
 
@@ -79,6 +85,8 @@ h2 {
 }
 
 a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -117,16 +125,63 @@ a:hover {
 
 .content {
     justify-content: center;
-    
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: 500px;
     margin-right: 500px;
-    margin-bottom: 50px;
+  
     flex-direction: column;
     max-width: 800px;
+    max-height: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    overflow: scroll;
+    
+
 
 }
 
+.content::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+/* .content::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(31, 41, 55);
+} */
+ 
+.content::-webkit-scrollbar-thumb {
+  background-color:#1F2937;
+  outline: 1px solid rgb(31, 41, 55);
+}
+
+.content::-webkit-scrollbar-corner {
+  background-color: #E5E7EB;
+}
+
+.bio-wrap {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 232, 232);
+}
+
+.bio {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  
+}
+
+.bio-content {
+  max-height: 400px;
+}
+
+.main-bio {
+  
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  max-height: 400px;
+
+}
 
 
 .profile-picture {
@@ -153,8 +208,49 @@ a:hover {
     max-width: 800px;
     max-height: 600px;
     overflow: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
     
    
+}
+
+.announcements {
+  
+  justify-content: center;
+    
+  margin-top: 0px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  max-width: 800px;
+  max-height: 600px;
+  overflow: scroll;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 5px;
+
+}
+
+.content-wrap {
+
+  max-height: 800px ;
+  overflow: scroll;
+
+
+}
+
+.content-wrap::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+.content-wrap::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(31, 41, 55);
+}
+ 
+.content-wrap::-webkit-scrollbar-thumb {
+  background-color:rgb(31, 41, 55);
+  outline: 1px solid rgb(31, 41, 55);
 }
 
 .book {
@@ -244,6 +340,7 @@ ion-icon {
 }
 
 .copyright {
+  font-family: 'Times New Roman', Times, serif;
     margin-top: 25px;
     margin-bottom: 10px;
 }
